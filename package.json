@@ -1,0 +1,30 @@
+{
+  "name": "rm-unreachable-branches",
+  "version": "0.0.0",
+  "description": "Browserify transform to remove unreachable branches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "andreypopp/rm-unreachable-branches"
+  },
+  "keywords": [
+    "browserify",
+    "esprima",
+    "esmangle",
+    "dead-code-removal"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "escope": "~1.0.0",
+    "esmangle": "0.0.15",
+    "escodegen": "0.0.27",
+    "esprima": "~1.0.4",
+    "through": "~2.3.4",
+    "convert-source-map": "~0.2.6",
+    "jshint": "~2.1.10"
+  }
+}
